@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>循环链表.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>数据结构和算法.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>静态链表.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>01E459EC1E796F2E00FE2DBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01E459FD1E79728D00FE2DBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01E45A081E7972BD00FE2DBB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
