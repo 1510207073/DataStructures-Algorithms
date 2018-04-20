@@ -20,8 +20,8 @@ typedef struct node {
 //typedef struct node Node;  //typedef为C语言的关键字，作用是为一种数据类型定义一个新名字。
 //使用typedef目的一般有两个，一个是给变量一个易记且意义明确的新名字，另一个是简化一些比较复杂的类型声明。
 
-Node *create();                             //创建链表
-Node *createTest();
+Node *create(void);                             //创建链表
+Node *createTest(void);
 void insert(Node *head,Node *pnew,int i);   //插入链表
 void pdelete(Node *head,int i);             //删除列表
 void display(Node *head);                   //输出链表
@@ -100,7 +100,7 @@ struct node *create() {
     return head;  //返回创建链表的头指针
 }
 
-Node* createTest(){
+Node* createTest(void){
     
     Node *head,*tail;
     

@@ -173,6 +173,27 @@ void traverseBinaryTreeByInOrder(Tree *T){
     }
 }
 
+#pragma mark - 中序遍历（非递归实现）
+/*
+ curr == 根节点
+ stack
+ 
+ while( 栈!=null &&curr != null){
+ 
+    // 只要节点不为空，直接压入栈，在判断节点left是不是空，如果left是空，弹出栈就找它的right,有值接着压入栈，如此循环
+    while(curr != null){
+        push(curr);
+        curr = curr->left;
+    }
+ 
+    if(stack!=null}{
+        pop();
+        curr->right;
+    }
+ }
+ */
+
+
 #prgram mark 后序遍历（递归实现）
 /*
  后序遍历（递归实现）
