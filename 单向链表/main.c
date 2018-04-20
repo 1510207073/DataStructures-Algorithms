@@ -13,14 +13,15 @@
  关键点：如何创建一个链表：需要一个头指针、尾指针
  */
 
-struct node {
+typedef struct node {
     int data;
     struct node *next;
-};
-typedef struct node Node;  //typedef为C语言的关键字，作用是为一种数据类型定义一个新名字。
+}Node;
+//typedef struct node Node;  //typedef为C语言的关键字，作用是为一种数据类型定义一个新名字。
 //使用typedef目的一般有两个，一个是给变量一个易记且意义明确的新名字，另一个是简化一些比较复杂的类型声明。
 
-struct node *create();                      //创建链表
+Node *create();                             //创建链表
+Node *createTest();
 void insert(Node *head,Node *pnew,int i);   //插入链表
 void pdelete(Node *head,int i);             //删除列表
 void display(Node *head);                   //输出链表
@@ -32,7 +33,7 @@ int main(int argc, char *argv[]) {
     
     // ======= 创建 =======
     struct node *head;
-    head = create();
+    head = createTest();
     if (head == NULL)
         return 0;
     printf("输出创建的链表：\n");
@@ -51,22 +52,20 @@ int main(int argc, char *argv[]) {
     //    display(head);
     
     // ======= 删除 =======
-    pdelete(head,3);   //删除节点3
-    printf("删除后的链表：");
-    display(head);
-    Pfree(head);
+//    pdelete(head,3);   //删除节点3
+//    printf("删除后的链表：");
+//    display(head);
+//    Pfree(head);
     
     return 0;
 }
 
 struct node *create() {
     
+    // 1、创建头指针，尾指针
     Node *head,*tail;
     
-    // 新的节点
-    Node *pnew;
-    int data;
-    
+    // 2、创建头节点（指针域赋值为NULL,头指针赋值给尾指针）
     head = (Node *)malloc(sizeof(Node));  //创建头节点。
     if (head == NULL) { //创建失败返回
         printf("创建失败！");
@@ -75,6 +74,10 @@ struct node *create() {
     head->next = NULL;  //头节点指针域置NULL
     tail = head;        // 开始时尾指针指向头节点
     
+    // 3、创建新节点，并给数据域赋值，指针域赋值为NULL；
+    //    将新节点加入到链表-尾指针的next指向新节点，更新尾指针-将尾指针赋值为新节点
+    int data;
+    Node *pnew;
     printf("输入数据：");
     while (1) {      //创建链表
         scanf("%d",&data);
@@ -91,6 +94,34 @@ struct node *create() {
         tail = pnew;            //为指针指向当前的尾节点
     }
     return head;  //返回创建链表的头指针
+}
+
+Node* createTest(){
+    
+    Node *head,*tail;
+    
+    head = (Node*)malloc(sizeof(Node));
+    head->next = NULL;
+    tail = head;
+    
+    printf("请输入节点数据，负数代表结束输入：");
+    int input;
+    Node *pNew;
+    while (1) {
+        scanf("%d",&input);
+        if (input < 0) {
+            break;
+        }
+        
+        pNew = (Node*)malloc(sizeof(Node));
+        pNew->data = input;
+        pNew->next = NULL;
+        
+        tail->next = pNew;
+        tail = pNew;
+    }
+    
+    return head;
 }
 
 void insert(Node *head,Node *pnew,int i) {

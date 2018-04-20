@@ -7,11 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BF2A4820844A2A006B4BB8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A4720844A2A006B4BB8 /* main.c */; };
+		01BF2A5E208452C1006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A5D208452C1006B4BB8 /* main.m */; };
+		01BF2A772089D258006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A762089D258006B4BB8 /* main.m */; };
+		01BF2A822089D34A006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A812089D34A006B4BB8 /* main.m */; };
+		01BF2A8D2089D37E006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A8C2089D37E006B4BB8 /* main.m */; };
+		01BF2A982089D41E006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A972089D41E006B4BB8 /* main.m */; };
+		01BF2AC12089FAF4006B4BB8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2AC02089FAF4006B4BB8 /* main.c */; };
 		01E45A011E79728D00FE2DBB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 01E45A001E79728D00FE2DBB /* main.c */; };
 		01E45A0C1E7972BD00FE2DBB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 01E45A0B1E7972BD00FE2DBB /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0105EED31F91EF23000EB56E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		01BF2A4320844A2A006B4BB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		01BF2A4E208452A3006B4BB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		01BF2A59208452C1006B4BB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		01BF2A722089D258006B4BB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		01BF2A7D2089D34A006B4BB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		01BF2A882089D37E006B4BB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		01BF2A932089D41E006B4BB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		01BF2ABC2089FAF4006B4BB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		01E459DD1E796EC900FE2DBB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,9 +139,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0105EED51F91EF23000EB56E /* 二叉树的链表实现和遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "二叉树的链表实现和遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF2A4520844A2A006B4BB8 /* 斐波拉切数列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "斐波拉切数列"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF2A4720844A2A006B4BB8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		01BF2A50208452A3006B4BB8 /* 冒泡排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "冒泡排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF2A5B208452C1006B4BB8 /* 排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF2A5D208452C1006B4BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BF2A742089D258006B4BB8 /* 链表反转 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "链表反转"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF2A762089D258006B4BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BF2A7F2089D34A006B4BB8 /* 数组去重 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数组去重"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF2A812089D34A006B4BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BF2A8A2089D37E006B4BB8 /* 查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "查找"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF2A8C2089D37E006B4BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BF2A952089D41E006B4BB8 /* 二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF2A972089D41E006B4BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BF2ABE2089FAF4006B4BB8 /* 单向链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "单向链表"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF2AC02089FAF4006B4BB8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		01E459DF1E796EC900FE2DBB /* 数据结构和算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数据结构和算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E459ED1E796F2E00FE2DBB /* 双链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "双链表"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01E459F71E79725D00FE2DBB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		01E459F91E79727000FE2DBB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		01E459FE1E79728D00FE2DBB /* 循环链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "循环链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E45A001E79728D00FE2DBB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -62,6 +165,69 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0105EED21F91EF23000EB56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A4220844A2A006B4BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A4D208452A3006B4BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A58208452C1006B4BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A712089D258006B4BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A7C2089D34A006B4BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A872089D37E006B4BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A922089D41E006B4BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2ABB2089FAF4006B4BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01E459DC1E796EC900FE2DBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,13 +259,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01BF2A4620844A2A006B4BB8 /* 斐波拉切数列 */ = {
+			isa = PBXGroup;
+			children = (
+				01BF2A4720844A2A006B4BB8 /* main.c */,
+			);
+			path = "斐波拉切数列";
+			sourceTree = "<group>";
+		};
+		01BF2A5C208452C1006B4BB8 /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				01BF2A5D208452C1006B4BB8 /* main.m */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		01BF2A752089D258006B4BB8 /* 链表反转 */ = {
+			isa = PBXGroup;
+			children = (
+				01BF2A762089D258006B4BB8 /* main.m */,
+			);
+			path = "链表反转";
+			sourceTree = "<group>";
+		};
+		01BF2A802089D34A006B4BB8 /* 数组去重 */ = {
+			isa = PBXGroup;
+			children = (
+				01BF2A812089D34A006B4BB8 /* main.m */,
+			);
+			path = "数组去重";
+			sourceTree = "<group>";
+		};
+		01BF2A8B2089D37E006B4BB8 /* 查找 */ = {
+			isa = PBXGroup;
+			children = (
+				01BF2A8C2089D37E006B4BB8 /* main.m */,
+			);
+			path = "查找";
+			sourceTree = "<group>";
+		};
+		01BF2A962089D41E006B4BB8 /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				01BF2A972089D41E006B4BB8 /* main.m */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		01BF2ABF2089FAF4006B4BB8 /* 单向链表 */ = {
+			isa = PBXGroup;
+			children = (
+				01BF2AC02089FAF4006B4BB8 /* main.c */,
+			);
+			path = "单向链表";
+			sourceTree = "<group>";
+		};
 		01E459D61E796EC900FE2DBB = {
 			isa = PBXGroup;
 			children = (
-				01E459F61E79725D00FE2DBB /* 单向链表 */,
+				01BF2ABF2089FAF4006B4BB8 /* 单向链表 */,
 				01E459F81E79727000FE2DBB /* 双向链表 */,
 				01E45A0A1E7972BD00FE2DBB /* 静态链表 */,
 				01E459FF1E79728D00FE2DBB /* 循环链表 */,
+				01BF2A752089D258006B4BB8 /* 链表反转 */,
+				01BF2A962089D41E006B4BB8 /* 二叉树 */,
+				01BF2A4620844A2A006B4BB8 /* 斐波拉切数列 */,
+				01BF2A802089D34A006B4BB8 /* 数组去重 */,
+				01BF2A5C208452C1006B4BB8 /* 排序 */,
+				01BF2A8B2089D37E006B4BB8 /* 查找 */,
 				01E459E01E796EC900FE2DBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,16 +339,17 @@
 				01E459ED1E796F2E00FE2DBB /* 双链表 */,
 				01E459FE1E79728D00FE2DBB /* 循环链表 */,
 				01E45A091E7972BD00FE2DBB /* 静态链表 */,
+				0105EED51F91EF23000EB56E /* 二叉树的链表实现和遍历 */,
+				01BF2A4520844A2A006B4BB8 /* 斐波拉切数列 */,
+				01BF2A50208452A3006B4BB8 /* 冒泡排序 */,
+				01BF2A5B208452C1006B4BB8 /* 排序 */,
+				01BF2A742089D258006B4BB8 /* 链表反转 */,
+				01BF2A7F2089D34A006B4BB8 /* 数组去重 */,
+				01BF2A8A2089D37E006B4BB8 /* 查找 */,
+				01BF2A952089D41E006B4BB8 /* 二叉树 */,
+				01BF2ABE2089FAF4006B4BB8 /* 单向链表 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		01E459F61E79725D00FE2DBB /* 单向链表 */ = {
-			isa = PBXGroup;
-			children = (
-				01E459F71E79725D00FE2DBB /* main.c */,
-			);
-			path = "单向链表";
 			sourceTree = "<group>";
 		};
 		01E459F81E79727000FE2DBB /* 双向链表 */ = {
@@ -150,6 +379,159 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0105EED41F91EF23000EB56E /* 二叉树的链表实现和遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0105EED91F91EF23000EB56E /* Build configuration list for PBXNativeTarget "二叉树的链表实现和遍历" */;
+			buildPhases = (
+				0105EED11F91EF23000EB56E /* Sources */,
+				0105EED21F91EF23000EB56E /* Frameworks */,
+				0105EED31F91EF23000EB56E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二叉树的链表实现和遍历";
+			productName = "二叉树的链表实现和遍历";
+			productReference = 0105EED51F91EF23000EB56E /* 二叉树的链表实现和遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
+		01BF2A4420844A2A006B4BB8 /* 斐波拉切数列 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF2A4920844A2A006B4BB8 /* Build configuration list for PBXNativeTarget "斐波拉切数列" */;
+			buildPhases = (
+				01BF2A4120844A2A006B4BB8 /* Sources */,
+				01BF2A4220844A2A006B4BB8 /* Frameworks */,
+				01BF2A4320844A2A006B4BB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "斐波拉切数列";
+			productName = "斐波拉切数列";
+			productReference = 01BF2A4520844A2A006B4BB8 /* 斐波拉切数列 */;
+			productType = "com.apple.product-type.tool";
+		};
+		01BF2A4F208452A3006B4BB8 /* 冒泡排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF2A54208452A3006B4BB8 /* Build configuration list for PBXNativeTarget "冒泡排序" */;
+			buildPhases = (
+				01BF2A4C208452A3006B4BB8 /* Sources */,
+				01BF2A4D208452A3006B4BB8 /* Frameworks */,
+				01BF2A4E208452A3006B4BB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "冒泡排序";
+			productName = "冒泡排序";
+			productReference = 01BF2A50208452A3006B4BB8 /* 冒泡排序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		01BF2A5A208452C1006B4BB8 /* 排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF2A5F208452C1006B4BB8 /* Build configuration list for PBXNativeTarget "排序" */;
+			buildPhases = (
+				01BF2A57208452C1006B4BB8 /* Sources */,
+				01BF2A58208452C1006B4BB8 /* Frameworks */,
+				01BF2A59208452C1006B4BB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "排序";
+			productName = "排序";
+			productReference = 01BF2A5B208452C1006B4BB8 /* 排序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		01BF2A732089D258006B4BB8 /* 链表反转 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF2A7A2089D258006B4BB8 /* Build configuration list for PBXNativeTarget "链表反转" */;
+			buildPhases = (
+				01BF2A702089D258006B4BB8 /* Sources */,
+				01BF2A712089D258006B4BB8 /* Frameworks */,
+				01BF2A722089D258006B4BB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "链表反转";
+			productName = "链表反转";
+			productReference = 01BF2A742089D258006B4BB8 /* 链表反转 */;
+			productType = "com.apple.product-type.tool";
+		};
+		01BF2A7E2089D34A006B4BB8 /* 数组去重 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF2A832089D34A006B4BB8 /* Build configuration list for PBXNativeTarget "数组去重" */;
+			buildPhases = (
+				01BF2A7B2089D34A006B4BB8 /* Sources */,
+				01BF2A7C2089D34A006B4BB8 /* Frameworks */,
+				01BF2A7D2089D34A006B4BB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数组去重";
+			productName = "数组去重";
+			productReference = 01BF2A7F2089D34A006B4BB8 /* 数组去重 */;
+			productType = "com.apple.product-type.tool";
+		};
+		01BF2A892089D37E006B4BB8 /* 查找 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF2A8E2089D37E006B4BB8 /* Build configuration list for PBXNativeTarget "查找" */;
+			buildPhases = (
+				01BF2A862089D37E006B4BB8 /* Sources */,
+				01BF2A872089D37E006B4BB8 /* Frameworks */,
+				01BF2A882089D37E006B4BB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "查找";
+			productName = "查找";
+			productReference = 01BF2A8A2089D37E006B4BB8 /* 查找 */;
+			productType = "com.apple.product-type.tool";
+		};
+		01BF2A942089D41E006B4BB8 /* 二叉树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF2A992089D41E006B4BB8 /* Build configuration list for PBXNativeTarget "二叉树" */;
+			buildPhases = (
+				01BF2A912089D41E006B4BB8 /* Sources */,
+				01BF2A922089D41E006B4BB8 /* Frameworks */,
+				01BF2A932089D41E006B4BB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二叉树";
+			productName = "二叉树";
+			productReference = 01BF2A952089D41E006B4BB8 /* 二叉树 */;
+			productType = "com.apple.product-type.tool";
+		};
+		01BF2ABD2089FAF4006B4BB8 /* 单向链表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF2AC22089FAF4006B4BB8 /* Build configuration list for PBXNativeTarget "单向链表" */;
+			buildPhases = (
+				01BF2ABA2089FAF4006B4BB8 /* Sources */,
+				01BF2ABB2089FAF4006B4BB8 /* Frameworks */,
+				01BF2ABC2089FAF4006B4BB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "单向链表";
+			productName = "单向链表";
+			productReference = 01BF2ABE2089FAF4006B4BB8 /* 单向链表 */;
+			productType = "com.apple.product-type.tool";
+		};
 		01E459DE1E796EC900FE2DBB /* 数据结构和算法 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01E459E61E796EC900FE2DBB /* Build configuration list for PBXNativeTarget "数据结构和算法" */;
@@ -227,6 +609,43 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = cy;
 				TargetAttributes = {
+					0105EED41F91EF23000EB56E = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = NYHN8JPMPT;
+						ProvisioningStyle = Automatic;
+					};
+					01BF2A4420844A2A006B4BB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					01BF2A4F208452A3006B4BB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					01BF2A5A208452C1006B4BB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					01BF2A732089D258006B4BB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					01BF2A7E2089D34A006B4BB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					01BF2A892089D37E006B4BB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					01BF2A942089D41E006B4BB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					01BF2ABD2089FAF4006B4BB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					01E459DE1E796EC900FE2DBB = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
@@ -261,11 +680,90 @@
 				01E459EC1E796F2E00FE2DBB /* 双链表 */,
 				01E459FD1E79728D00FE2DBB /* 循环链表 */,
 				01E45A081E7972BD00FE2DBB /* 静态链表 */,
+				0105EED41F91EF23000EB56E /* 二叉树的链表实现和遍历 */,
+				01BF2A4420844A2A006B4BB8 /* 斐波拉切数列 */,
+				01BF2A4F208452A3006B4BB8 /* 冒泡排序 */,
+				01BF2A5A208452C1006B4BB8 /* 排序 */,
+				01BF2A732089D258006B4BB8 /* 链表反转 */,
+				01BF2A7E2089D34A006B4BB8 /* 数组去重 */,
+				01BF2A892089D37E006B4BB8 /* 查找 */,
+				01BF2A942089D41E006B4BB8 /* 二叉树 */,
+				01BF2ABD2089FAF4006B4BB8 /* 单向链表 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0105EED11F91EF23000EB56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A4120844A2A006B4BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF2A4820844A2A006B4BB8 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A4C208452A3006B4BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A57208452C1006B4BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF2A5E208452C1006B4BB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A702089D258006B4BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF2A772089D258006B4BB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A7B2089D34A006B4BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF2A822089D34A006B4BB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A862089D37E006B4BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF2A8D2089D37E006B4BB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2A912089D41E006B4BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF2A982089D41E006B4BB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF2ABA2089FAF4006B4BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF2AC12089FAF4006B4BB8 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01E459DB1E796EC900FE2DBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +797,350 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0105EEDA1F91EF23000EB56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYHN8JPMPT;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0105EEDB1F91EF23000EB56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYHN8JPMPT;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BF2A4A20844A2A006B4BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BF2A4B20844A2A006B4BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BF2A55208452A3006B4BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BF2A56208452A3006B4BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BF2A60208452C1006B4BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BF2A61208452C1006B4BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BF2A782089D258006B4BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BF2A792089D258006B4BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BF2A842089D34A006B4BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BF2A852089D34A006B4BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BF2A8F2089D37E006B4BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BF2A902089D37E006B4BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BF2A9A2089D41E006B4BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BF2A9B2089D41E006B4BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BF2AC32089FAF4006B4BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BF2AC42089FAF4006B4BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		01E459E41E796EC900FE2DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -445,6 +1287,87 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0105EED91F91EF23000EB56E /* Build configuration list for PBXNativeTarget "二叉树的链表实现和遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0105EEDA1F91EF23000EB56E /* Debug */,
+				0105EEDB1F91EF23000EB56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BF2A4920844A2A006B4BB8 /* Build configuration list for PBXNativeTarget "斐波拉切数列" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF2A4A20844A2A006B4BB8 /* Debug */,
+				01BF2A4B20844A2A006B4BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BF2A54208452A3006B4BB8 /* Build configuration list for PBXNativeTarget "冒泡排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF2A55208452A3006B4BB8 /* Debug */,
+				01BF2A56208452A3006B4BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BF2A5F208452C1006B4BB8 /* Build configuration list for PBXNativeTarget "排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF2A60208452C1006B4BB8 /* Debug */,
+				01BF2A61208452C1006B4BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BF2A7A2089D258006B4BB8 /* Build configuration list for PBXNativeTarget "链表反转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF2A782089D258006B4BB8 /* Debug */,
+				01BF2A792089D258006B4BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BF2A832089D34A006B4BB8 /* Build configuration list for PBXNativeTarget "数组去重" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF2A842089D34A006B4BB8 /* Debug */,
+				01BF2A852089D34A006B4BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BF2A8E2089D37E006B4BB8 /* Build configuration list for PBXNativeTarget "查找" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF2A8F2089D37E006B4BB8 /* Debug */,
+				01BF2A902089D37E006B4BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BF2A992089D41E006B4BB8 /* Build configuration list for PBXNativeTarget "二叉树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF2A9A2089D41E006B4BB8 /* Debug */,
+				01BF2A9B2089D41E006B4BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BF2AC22089FAF4006B4BB8 /* Build configuration list for PBXNativeTarget "单向链表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF2AC32089FAF4006B4BB8 /* Debug */,
+				01BF2AC42089FAF4006B4BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		01E459DA1E796EC900FE2DBB /* Build configuration list for PBXProject "数据结构和算法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -479,6 +1402,7 @@
 				01E45A041E79728D00FE2DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01E45A0D1E7972BD00FE2DBB /* Build configuration list for PBXNativeTarget "静态链表" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +1411,7 @@
 				01E45A0F1E7972BD00FE2DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
