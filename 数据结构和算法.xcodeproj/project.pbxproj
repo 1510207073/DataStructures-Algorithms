@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		01BF2A4820844A2A006B4BB8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A4720844A2A006B4BB8 /* main.c */; };
 		01BF2A5E208452C1006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A5D208452C1006B4BB8 /* main.m */; };
-		01BF2A772089D258006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A762089D258006B4BB8 /* main.m */; };
 		01BF2A822089D34A006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A812089D34A006B4BB8 /* main.m */; };
 		01BF2A8D2089D37E006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A8C2089D37E006B4BB8 /* main.m */; };
 		01BF2A982089D41E006B4BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF2A972089D41E006B4BB8 /* main.m */; };
@@ -146,7 +145,6 @@
 		01BF2A5B208452C1006B4BB8 /* 排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BF2A5D208452C1006B4BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01BF2A742089D258006B4BB8 /* 链表反转 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "链表反转"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01BF2A762089D258006B4BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01BF2A7F2089D34A006B4BB8 /* 数组去重 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数组去重"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BF2A812089D34A006B4BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01BF2A8A2089D37E006B4BB8 /* 查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "查找"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -275,14 +273,6 @@
 			path = "排序";
 			sourceTree = "<group>";
 		};
-		01BF2A752089D258006B4BB8 /* 链表反转 */ = {
-			isa = PBXGroup;
-			children = (
-				01BF2A762089D258006B4BB8 /* main.m */,
-			);
-			path = "链表反转";
-			sourceTree = "<group>";
-		};
 		01BF2A802089D34A006B4BB8 /* 数组去重 */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,7 +312,6 @@
 				01E459F81E79727000FE2DBB /* 双向链表 */,
 				01E45A0A1E7972BD00FE2DBB /* 静态链表 */,
 				01E459FF1E79728D00FE2DBB /* 循环链表 */,
-				01BF2A752089D258006B4BB8 /* 链表反转 */,
 				01BF2A962089D41E006B4BB8 /* 二叉树 */,
 				01BF2A4620844A2A006B4BB8 /* 斐波拉切数列 */,
 				01BF2A802089D34A006B4BB8 /* 数组去重 */,
@@ -728,7 +717,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BF2A772089D258006B4BB8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

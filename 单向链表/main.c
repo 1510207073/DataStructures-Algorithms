@@ -27,6 +27,8 @@ void pdelete(Node *head,int i);             //删除列表
 void display(Node *head);                   //输出链表
 void Pfree(Node *head);                     //销毁链表
 
+Node *reverseNodeList(Node *head);          //链表反转
+
 #pragma mark - main
 
 int main(int argc, char *argv[]) {
@@ -38,6 +40,8 @@ int main(int argc, char *argv[]) {
         return 0;
     printf("输出创建的链表：\n");
     display(head);
+    
+    display(reverseNodeList(head));
     
     // ======= 插入 =======
     //    struct node *pnew;
@@ -100,10 +104,6 @@ Node* createTest(){
     
     Node *head,*tail;
     
-    head = (Node*)malloc(sizeof(Node));
-    head->next = NULL;
-    tail = head;
-    
     printf("请输入节点数据，负数代表结束输入：");
     int input;
     Node *pNew;
@@ -113,12 +113,19 @@ Node* createTest(){
             break;
         }
         
-        pNew = (Node*)malloc(sizeof(Node));
-        pNew->data = input;
-        pNew->next = NULL;
-        
-        tail->next = pNew;
-        tail = pNew;
+        if (head == NULL) {
+            head = (Node*)malloc(sizeof(Node));
+            head->data = input;
+            head->next = NULL;
+            tail = head;
+        }else{
+            pNew = (Node*)malloc(sizeof(Node));
+            pNew->data = input;
+            pNew->next = NULL;
+            
+            tail->next = pNew;
+            tail = pNew;
+        }
     }
     
     return head;
@@ -160,7 +167,7 @@ void pdelete(Node *head,int i) {
 
 void display(Node *head) {
     Node *p;
-    for (p=head->next; p!=NULL; p=p->next){
+    for (p=head; p!=NULL; p=p->next){
         printf("%d ",p->data);
     }
     printf("\n");
@@ -178,13 +185,26 @@ void pfree(Node *head) {
     free(head);   //最后删除头节点
 }
 
-void Pfree(Node *head) {
-    Node *p,*q;
-    p=head;
-    while (p->next!=NULL) {
-        q=p->next;
-        p->next=q->next;
-        free(q);
+#pragma mark - 单链表反转
+
+Node *reverseNodeList(Node *head){
+    
+    Node  *currentP,*behindP,*preP;
+    
+    currentP = head;
+    behindP = NULL;
+    
+    while (1) {
+        preP = currentP->next; // 保存反转前的下一个节点
+        
+        currentP->next = behindP;// 反转
+        
+        if (preP == NULL) {
+            break;
+        }
+        behindP = currentP; // behindP和currentP移位
+        currentP = preP;
     }
-    free(p);
+    
+    return currentP;
 }
